@@ -1,4 +1,4 @@
-var id = $.request.getParameter("id");  
+    var id = $.request.getParameter("id");  
     if (id === null) {  
         $.response.setContentType("text/plain");  
         $.response.addBody("id is null!");  
